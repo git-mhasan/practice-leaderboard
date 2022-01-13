@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --menu-bar-color:#562EFF;
+    --menu-text-color: #FFFFFF;
+    --text-color:#000000;
+    --header-text-color:#562EFF;
+    --menu-font-size:16px;
+    --header-font-size:24px;
+    --title-font-size:20px;
+    --player-name-font-size:18px;
+    --author-font-size:16px;
+    --btn-color: blue;
+
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/
+} 
+.top-menu-bar{
+    display: flex;
+    background-color: var(--menu-bar-color);
+    height: 94px;
+}
+
+nav li{
+    list-style: none;
+}
+
+.top-menu-list>ul>li a{
+    text-decoration: none;
+    color: var(--menu-text-color);
+    font-size: var(--menu-txt-size);
+}
+.top-menu-logo{
+    width: 40.42px;
+    height: 51px;
+}
+.top-menu-logo img{
+    width: 100%;
+}
+
+
