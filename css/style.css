@@ -15,29 +15,44 @@
     --player-name-font-size:18px;
     --author-font-size:16px;
     --btn-color: blue;
-
-    
 }
 
 body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif;*/
 } 
-.top-menu-bar{
+.menu-alignment{
     display: flex;
+    align-items: center;
+}
+
+.top-menu-bar{
+    /* display: flex; */
     background-color: var(--menu-bar-color);
     height: 94px;
+    justify-content: space-between;
+    padding: 0 285px;
+}
+
+.top-menu-logo p{
+    margin-left: 15.58px;
+    color: var(--menu-text-color);
+    font-size: var(--header-font-size);
+    font-weight: 500px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: var(--menu-text-color);
+    font-size: var(--menu-txt-size);
+    margin-right: 36px;
+    font-weight: normal;
 }
 
 nav li{
     list-style: none;
 }
 
-.top-menu-list>ul>li a{
-    text-decoration: none;
-    color: var(--menu-text-color);
-    font-size: var(--menu-txt-size);
-}
 .top-menu-logo{
     width: 40.42px;
     height: 51px;
